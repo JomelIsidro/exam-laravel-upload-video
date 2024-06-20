@@ -4,7 +4,7 @@ git clone https://github.com/JomelIsidro/exam-laravel-upload-video.git
 
 composer install
 
-cp .env.example .env
+copy .env.example .env
 php artisan key:generate
 
 php artisan storage:link
