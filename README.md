@@ -10,9 +10,21 @@ php artisan key:generate
 php artisan storage:link
 
 
+============= Testing =============
+
+php artisan test
+
+
 ============= Run the project =============
+
 php artisan serve
 
+open browser then run
+http://127.0.0.1:8000/upload
 
-============= Testing =============
-php artisan test
+You can check the video file in the project after successfully uploaded
+the video file will be save in local directory
+path: storage/app/public/uploads
+
+
+
